@@ -153,7 +153,7 @@ class CoursierDependencyDownloader extends DependencyDownloader {
     
     if (verbose) uris.map(_.getPath).foreach(p => printStream.println(s"-> New file at $p"))
     
-    printStream.println("Obtained " + uris.size() + " files")
+    printStream.println("Obtained " + uris.size + " files")
     
     uris
   }
